@@ -18,3 +18,14 @@
   border: none;
   cursor: pointer;
 }
+
+@keyframes bounce {
+  0% { transform: translateX(100%); }
+  60% { transform: translateX(-10%); }
+  80% { transform: translateX(5%); }
+  100% { transform: translateX(0); }
+}
+
+.bounce {
+  animation: bounce 1s;
+}
