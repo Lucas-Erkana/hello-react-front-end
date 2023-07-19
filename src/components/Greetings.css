@@ -1,0 +1,20 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0;
+}
+
+.greeting-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ff5151;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
