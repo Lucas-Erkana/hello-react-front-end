@@ -1,0 +1,64 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0;
+}
+
+.greeting-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: hsl(197, 100%, 66%);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes bounceRight {
+  0% { transform: translateX(100%); }
+  60% { transform: translateX(-10%); }
+  80% { transform: translateX(5%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes bounceLeft {
+  0% { transform: translateX(-100%); }
+  60% { transform: translateX(10%); }
+  80% { transform: translateX(-5%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes bounceTop {
+  0% { transform: translateY(-100%); }
+  60% { transform: translateY(10%); }
+  80% { transform: translateY(-5%); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes bounceBottom {
+  0% { transform: translateY(100%); }
+  60% { transform: translateY(-10%); }
+  80% { transform: translateY(5%); }
+  100% { transform: translateY(0); }
+}
+
+.bounceRight {
+  animation: bounceRight 1s;
+}
+
+.bounceLeft {
+  animation: bounceLeft 1s;
+}
+
+.bounceTop {
+  animation: bounceTop 1s;
+}
+
+.bounceBottom {
+  animation: bounceBottom 1s;
+}
